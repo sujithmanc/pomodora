@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: pomodora
+server:
+  port: 8080
+
+

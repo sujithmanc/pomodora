@@ -9,7 +9,7 @@ function App() {
     const fetchData = async () => {
       try {
         // Async call with axios
-        const response = await axios.get("http://172.31.18.191:8080/hi");
+        const response = await axios.get("http://15.134.216.255/api/hi");
         setData(response.data);
       } catch (err) {
         console.error("Error fetching API:", err);

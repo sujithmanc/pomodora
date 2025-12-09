@@ -1,7 +1,21 @@
-spring:
-  application:
-    name: pomodora
 server:
   port: 8080
 
+spring:
+  application:
+    name: pomodora
+  datasource:
+    url: jdbc:mysql://54.252.14.147:3306/springbootdb
+    username: springuser
+    password: AppPassword123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      # Options: none, validate, update, create, create-drop
+      ddl-auto: update
+    properties:
+      hibernate:
+        # Set the dialect for MySQL
+        dialect: org.hibernate.dialect.MySQLDialect
 

@@ -5,7 +5,7 @@ spring:
   application:
     name: pomodora
   datasource:
-    url: jdbc:mysql://54.252.14.147:3306/springbootdb
+    url: jdbc:mysql://3.107.104.205:3306/springbootdb
     username: springuser
     password: AppPassword123
     driver-class-name: com.mysql.cj.jdbc.Driver
